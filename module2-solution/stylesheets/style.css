@@ -1,0 +1,113 @@
+
+
+  * {
+    box-sizing: border-box;
+
+
+  }
+
+  h1
+  {
+    color:black;
+    text-align: center;
+
+  }
+
+  div {
+    background-color: blue;
+    width: 31%;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    border: 3px solid black;
+
+
+
+  }
+  h2 {
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+    border: 5px solid black;
+    width: 150px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    float: right;
+    margin-bottom: 17px;
+  }
+
+  p{
+    clear:right ;
+
+      padding: 5px;
+
+  }
+
+
+  @media (min-width: 768px) and (max-width: 991px)
+  {
+
+    div,.note {
+      background-color: blue;
+      width: 47%;
+      margin: 10px;
+      padding: 5px;
+      float: left;
+      border: 3px solid black;
+
+
+
+    }
+    h2 {
+      background-color: red;
+      text-align: center;
+      padding: 5px;
+      border: 5px solid black;
+      width: 150px;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      float: right;
+      margin-bottom: 17px;
+  }
+  .note
+  {
+    width: 96%;
+  }
+  p {
+    padding: 5px;
+  }
+
+
+  }
+
+    @media (max-width: 768px) and (min-width: 10px)
+    {
+      div,.note {
+        background-color: blue;
+        width: 100%;
+        margin: 10px;
+        padding: 0;
+        float: left;
+        border: 3px solid black;
+
+
+
+      }
+      h2 {
+        background-color: red;
+        text-align: center;
+        padding: 5px;
+        border: 5px solid black;
+        width: 150px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        float: right;
+        margin-bottom: 17px
+        margin-top: 0;
+    }
+
+    p {
+      padding: 5px;
+    }
+
+}
